@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="text" id="nameInput" placeholder="Enter your name" />
+    <button id="submitBtn">Submit</button>
+    <p id="output"></p>
+
+    <input id="userInput" maxlength="50" placeholder="Type here..." />
+    <p id="charCount">Characters Count: <span>0</span> / 50</p>
+    <p id="warning"></p>
+
+    <div class="container">
+      <h2>Password Strength Checker</h2>
+      <input
+        type="password"
+        id="passwordInput"
+        placeholder="Enter your password"
+        autocomplete="off"
+      />
+      <button>Strength Checker</button>
+      <p id="strengthMessage">Strength: <span></span></p>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

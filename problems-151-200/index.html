@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problems -151-200</title>
+    <style>
+        body{
+            overflow-x: hidden;
+        }
+            button{
+            padding: 15px;
+            border: none;
+            background-color: lightgreen;
+            border-radius: 20px;
+            font-weight: 700;
+        }
+        #file{
+            display: none;
+        }
+        .box{
+            width: 150px;
+            height: 150px;
+            background-color: red;
+        }
+        .box-two{
+            transition:all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+            /* position: absolute; */
+            width: 150px;
+            height: 150px;
+            background-color: greenyellow;
+            border-radius: 50%;
+        }
+        .bulb {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: #444;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px #000;
+      transition: 0.3s ease;
+      cursor: pointer;
+    }
+
+    .glow {
+      background-color: yellow;
+      box-shadow: 0 0 30px yellow, 0 0 60px yellow, 0 0 100px yellow;
+    }
+    </style>
+</head>
+<body>
+       <h1 class="hello">Hello</h1>
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Contact</li>
+    </ul>
+    <div title="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, placeat.</div>
+    <ul class="list-items">
+        <li>Task 1</li>
+        <li>Task 2</li>
+        <li>Task 3</li>
+    </ul>
+
+    <p>para-1</p>
+    <p>para-2</p>
+    <p>para-3</p>
+    <p>para-4</p>
+    <p>para-5</p>
+    <p>para-6</p>
+    <p>para-7</p>
+
+    <h2>js</h2>
+    <h2>dom</h2>
+    <h2>events</h2>
+
+        <input type="text" placeholder="Write anyhing">
+    <h1>Total Charcters : <span>0</span></h1>
+
+        <h2 id="device">Select your Device</h2>
+    <select>
+        <option selected disabled>select your device</option>
+        <option value="samsung">Samsung</option>
+        <option value="apple">Apple Iphone</option>
+        <option value="oppo">Oppo</option>
+        <option value="redmi">Redmi</option>
+    </select>
+
+        <h1 class="anyTyped">a</h1>
+
+    <input type="file" id="file">
+    <button>Upload file</button>
+    <div class="box"></div>
+    <div class="box-two"></div>
+
+    <button id="btn1">Click Me 1</button>
+<button id="btn2">Click Me 2</button>
+<button id="btn3">Click Me 3</button>
+
+
+  <div class="bulb" id="bulb"></div>
+  <p>Click the bulb to turn it ON/OFF</p>
+
+      <h1>Form Validation</h1>
+    <form>
+        <input type="text" placeholder="name" id="name">
+        <div id="hide">
+            <small>Your name should be grater then 2 characters</small>
+        </div>
+        <br><br>
+        <input type="email" placeholder="email"> <br><br>
+        <!-- inline validation :  required minlength="3" maxlength="8" -->
+        <!-- pattern attribute -->
+        <input type="password" placeholder="password"  pattern="[a-z]{3,8}"><br><br>
+        <select>
+            <option value="male">male</option>
+            <option value="female">female</option>
+        </select><br><br>
+        <textarea placeholder="tell us about you..."></textarea><br>
+        <input type="submit">
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>
