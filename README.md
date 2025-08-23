@@ -1,4 +1,4 @@
-<h1 align="center">🚀 300 JavaScript Problems Challenge 🔥</h1>
+<h1 align="center">🚀 250 JavaScript Problems Challenge 🔥</h1>
 <p align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="80" alt="JavaScript Logo" />
 </p>
@@ -15,19 +15,18 @@
 
 ## 📁 Folder Structure
 
-📦 300-js-problems
+📦 250-js-problems
  ┣ 📂 problems-001-to-050
  ┣ 📂 problems-051-to-100
  ┣ 📂 problems-101-to-150
  ┣ 📂 problems-151-to-200
  ┣ 📂 problems-201-to-250
- ┗ 📂 problems-251-to-300
 
 
 💡 About This Repository
 Welcome to the Ultimate JavaScript Logic-Building Arena! 🧠⚔️
 
-This repository is your personal dojo 🥋 of 300 hand-crafted JavaScript problems designed to:
+This repository is your personal dojo 🥋 of 250 hand-crafted JavaScript problems designed to:
 
 ✅ Boost your logic & problem-solving
 ✅ Master JavaScript concepts from beginner to pro
@@ -47,7 +46,7 @@ Problems range from easy ➡️ advanced.
 
 ✅ Build strong fundamentals
 
-✅ Finish all 300 like a boss 😎
+✅ Finish all 250 like a boss 😎
 
 ✅ Apply for internships with confidence 💼
 
@@ -61,5 +60,5 @@ Problems range from easy ➡️ advanced.
 📣 Let's Connect!
 If you're also working on JS logic building, feel free to fork, star, or connect! 💫
 Let’s grow together! 🚀
-# 300-JS-problems
+# 250-JS-problems
 💡 This repository contains 300 JavaScript problems designed to sharpen your logic, boost problem-solving skills, and build a strong foundation in JavaScript — step by step, from beginner to advanced level.
